@@ -1,1 +1,29 @@
-
+body {
+  display: block;
+  margin: auto;
+  background-image: url("fondo");
+}
+  .nav {
+    list-style-type: none;
+    padding-inline-end: 0px;
+    background-color: black;
+    height: 100px;
+  }
+  
+  .nav li {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .nav a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+.posicion{
+  text-align: end;
+  margin-top: 0px;
+}
