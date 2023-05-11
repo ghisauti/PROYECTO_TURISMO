@@ -1,8 +1,5 @@
 body {
-  display: block;
-  margin: auto;
   background-image: url("../imagenes/fondoinicio.jpg");
-  
 }
 
 * {
@@ -18,7 +15,9 @@ header {
 } 
 .menu {
   display: block;
-  list-style: none;   
+  list-style: none;
+  margin-top: 37%;
+  margin-left: 18%;
 }
 
 .menu li {
@@ -26,12 +25,13 @@ header {
 }
 
 .menu a {
-  color:black;
+  color: white;
   text-decoration: none;
-  padding: 15px;
+  padding: 25px;
   font-family:'Courier New', Courier, monospace;
-  font-size: 35px;
+  font-size: 70px;
 }
 .logo{
   padding-left: 50px;
+  padding: 2%;
 }
