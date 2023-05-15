@@ -17,7 +17,8 @@ header {
   display: block;
   list-style: none;
   margin-top: 37%;
-  margin-left: 18%;
+  margin-left: 13%;
+  justify-content: center;
 }
 
 .menu li {
@@ -28,8 +29,8 @@ header {
   color: white;
   text-decoration: none;
   padding: 25px;
-  font-family:'Courier New', Courier, monospace;
-  font-size: 70px;
+  font-family: 'Cambria Rounded';
+  font-size: 80px;
 }
 .logo{
   padding-left: 50px;
