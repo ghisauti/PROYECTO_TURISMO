@@ -1,0 +1,78 @@
+body {
+  display: block;
+  margin: auto;
+  background-image: url("../imagenes/puente.jpg");
+  background-color: rgb(255, 255, 255);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+} 
+.menu {
+  display: block;
+  list-style: none;   
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  color:black;
+  text-decoration: none;
+  padding: 15px;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 15px;
+}
+
+.logo{
+  padding-left: 50px;
+}
+
+.info1{
+  color: black;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
+
+input{
+    background-color: #242528;
+    border: 1px solid white;
+    font-size: 17px;
+    width: 35%;
+    height: 15%;
+    display: block;
+    margin: auto;
+
+}
+
+.img_face{
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    height: 5%;
+    width: 2%;
+    display: block;
+    margin: auto;
+
+}
+
+.contenedor{
+  background-color: #1c1d1f;
+  width: 320px;
+  height: 250px;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
