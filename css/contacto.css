@@ -1,0 +1,80 @@
+body {
+    display: block;
+    margin: auto;
+    background-image: url("../imagenes/fondocontacto.jpg");
+    background-color: rgb(255, 255, 255);
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+  } 
+  .menu {
+    display: block;
+    list-style: none;   
+  }
+  
+  .menu li {
+    display: inline-block;
+  }
+  
+  .menu a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+  }
+  
+  .logo{
+    padding-left: 50px;
+  }
+  
+  .info1{
+    color: rgb(0, 0, 0);
+      font-family:Verdana;
+      font-size: 25px;
+      text-align: center;
+      display: block;
+      margin: auto;
+      margin-top: 100px;
+  }
+  
+  input{
+      background-color: #ffffff;
+      border: 1px solid rgb(0, 0, 0);
+      font-size: 17px;
+      width: 70%;
+      height: 15%;
+      display: block;
+      margin: auto;
+  
+  }
+  
+  .img_face{
+      position: absolute;
+      top: 85%;
+      left: 10%;
+      height: 5%;
+      width: 2%;
+      display: block;
+      margin: auto;
+  
+  }
+  
+  .contenedor{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(100%, 0, 0, 0.75);
+    width: 320px;
+    height: 250px;
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
